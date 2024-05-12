@@ -2,6 +2,7 @@
     min-width: 6rem;
     max-width: 14rem;
     height: 4rem;
+    min-height: 4rem;
 
     background-color: var(--strange-color3);
     color: var(--light-color);
