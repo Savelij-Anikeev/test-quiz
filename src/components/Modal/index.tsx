@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import styles from './Modal.module.css';
 
@@ -19,14 +19,7 @@ const Modal = () => {
 
   const questionAmount = modalStore.currentTest!.questions.length;  
 
-  useEffect(() => {
-    // const root = document.querySelector('#root');
-    // root!.className = 'overflow-hidden';
-  }, [])
-
   function handleClose() {
-    // const root = document.querySelector('#root');
-    // root!.className = '';
     modalStore.closeModal();
   }
 

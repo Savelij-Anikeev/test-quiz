@@ -15,21 +15,24 @@ import testStore from '../../app/store/testStore';
 const MainPage = observer(() => {
   return (
     <>
-      {modalStore.isOpen && <Modal />}
+      {modalStore.isOpen
+      ? <Modal />
+      : <>
+          <Header />
 
-      <Header />
+          <main className={styles.main}>
+            {/* all tests */}
+            <TestList tests={testStore.tests} title='All tests'/>
 
-      <main className={styles.main}>
-        {/* all tests */}
-        <TestList tests={testStore.tests} title='All tests'/>
+            {/* filtering tests */}
+            <TestListFiltered />
 
-        {/* filtering tests */}
-        <TestListFiltered />
+          </main>
 
-      </main>
-
-      {/* Footer */}
-      <Footer />
+          {/* Footer */}
+          <Footer />
+        </>
+      }
     </>
   )
 })
