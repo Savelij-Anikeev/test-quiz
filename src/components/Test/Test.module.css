@@ -1,0 +1,93 @@
+.TestWrapper {
+    display: flex;
+    height: 430px;
+    width: 300px;
+    
+    flex: 0 0 auto;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    -webkit-box-shadow: -1px 10px 57px -7px var(--black-color);
+    -moz-box-shadow: -1px 10px 57px -7px var(--black-color);
+    box-shadow: -5px 5px 20px -10px var(--black-color);
+
+    transition: all 0.25s;
+}
+.TestWrapper:hover {
+    /* box-shadow: 0 0 2px 2px var(--light-color); */
+}
+
+.TestWrapper:not(:first-child) {
+    margin-left: 1rem;
+}
+.TestWrapper:last-child {
+    margin-right: 2rem;
+}
+
+.TestData {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    backdrop-filter: blur(10px);
+
+    animation: forwards normal 0.5s appearTextData;
+}
+.TextFields {
+    width: 100%;
+    height: 100%;
+}
+.TestTitle {
+    font-size: x-large;
+    font-weight: 600;
+    background-color: var(--black-color);
+    padding: 10px;
+}
+.TestDescription {
+    background-color: var(--black-color);
+    padding: 10px;
+}
+.diffTitle {
+    display: flex;
+    align-self: flex-end;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 500;
+    background-color: var(--black-color);
+    animation: forwards normal 0.5s appearTextData;
+}
+.TestDiff {
+    background-color: var(--strange-color);
+    padding: 10px;
+    height: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    animation: forwards normal 0.5s appearTextData;
+    border-radius: 0 5px 0 0;
+    box-shadow: 0 0 10px 1px var(--black-color);
+}
+
+@keyframes appearTextData {
+    0% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 1;
+    }
+}

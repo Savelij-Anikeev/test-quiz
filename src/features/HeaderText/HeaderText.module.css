@@ -1,0 +1,6 @@
+.headerText {
+    width: fit-content;
+    color: var(--text-color1);
+    margin: 0 1rem;
+    border-bottom: 4px solid var(--text-color1);
+}

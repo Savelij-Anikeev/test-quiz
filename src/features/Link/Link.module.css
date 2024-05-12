@@ -1,0 +1,22 @@
+.link {
+    font-weight: 400;
+    cursor: pointer;
+    padding: 4px 0 2px 0;
+    border-bottom: 2px solid var(--dark-color);
+    transition: 0.25s;
+}
+.link:hover {
+    /* border-color: var(--light-color); */
+    animation: normal forwards linkHoverAnim 0.5s;
+}
+
+@keyframes linkHoverAnim {
+    0% {
+        border-color: var(--light-color);
+        color: var(--light-color);
+    }
+    100% {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+    }
+}

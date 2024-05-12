@@ -1,0 +1,46 @@
+.testListWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    animation: forwards normal 2s appearTestList;
+    overflow: hidden;
+}
+.testListTitle{
+    display: flex;
+    margin-left: 1rem;
+    color: var(--text-color1);
+    border-bottom: 4px solid var(--text-color1);
+}
+.testListInner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    overflow-x: scroll;
+}
+
+.testListInner::-webkit-scrollbar {
+    height: 5px;
+    background-color: var(--dark-color);
+}
+.testListInner::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--text-color1);
+}
+
+@keyframes appearTestList {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

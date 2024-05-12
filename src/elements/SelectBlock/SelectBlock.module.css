@@ -1,0 +1,36 @@
+.selectWrapper {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    font-size: large;
+    cursor: pointer;
+}
+
+.selectWrapper:not(:first-child) {
+    padding-top: 1rem;
+}
+.selectOption {
+    height: 3rem;
+    min-width: 4rem;
+    max-width: 14rem;
+    padding: 0 2rem;
+    /* margin-top: 5px; */
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--black-color);
+}
+
+.selectOption:hover {
+    box-shadow: 0 0 0 2px var(--light-color);
+    z-index: 1;
+}
+.active {
+    color: var(--text-color1);
+}

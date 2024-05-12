@@ -1,0 +1,8 @@
+.testListFilteredWrapper {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}

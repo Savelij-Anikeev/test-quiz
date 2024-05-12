@@ -1,0 +1,24 @@
+.closeIcon{
+    display: flex;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s;
+}
+.closeIcon:hover{
+    animation: normal forwards onHover 1s;
+}
+
+@keyframes onHover {
+    0% {
+        rotate: 45deg;
+    } 
+    25% {
+        rotate: -45deg;
+    }
+    50% {
+        rotate: 30deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
