@@ -334,6 +334,175 @@ const tests: TestType[] = [
                 ]
             },
         ]
+    },
+    {
+        title: 'Russia in World War 1',
+        description: 'This test will check how well you know Russian history in this hard period - World War 1',
+        imgUrl: 'https://monastery.ru/upload/iblock/77e/77e7c330255a2222295f28741b0ad161.jpg',
+        category: TestCategory.RUSSIA,
+        difficulty: TestDifficulty.EXTREME,
+        questions: [
+            {
+                text: 'Which of the battles of the First World War turned out to be the longest and most crucial?',
+                answers: [
+                    {
+                        text: 'The Battle of Galicia',
+                        isRight: false,
+                    },
+                    {
+                        text: 'The Battle of the Marne',
+                        isRight: false,
+                    },
+                    {
+                        text: 'The Brusilov breakthrough',
+                        isRight: false,
+                    },
+                    {
+                        text: 'The Battle of Verdun',
+                        isRight: true,
+                        commentary: 'The Verdun meat grinder lasted ten months, becoming an example of a war of attrition. Nevertheless, the French and their allies managed to hold off the German offensive.'
+                    },
+                ],
+            },
+            {
+                text: 'There were allies on one side, including Russia, Great Britain and ...',
+                answers: [
+                    {
+                        text: 'Italy',
+                        isRight: false,
+                    },
+                    {
+                        text: 'France',
+                        isRight: true,
+                        commentary: 'Entente Cordiale, a bloc of England, France and Russia'
+                    },
+                    {
+                        text: 'Japan',
+                        isRight: false,
+                    }
+                ],
+            },
+            {
+                text: 'What was the reason for the outbreak of the First World War:',
+                answers: [
+                    {
+                        text: 'creation in the late XlX – early XX centuries.. The Entente and the Triple Alliance blocs',
+                        isRight: false,
+                    },
+                    {
+                        text: 'contradictions between the major powers due to influence in Europe and in the world',
+                        isRight: false,
+                    },
+                    {
+                        text: 'the assassination of the Austrian Archduke Frank Ferdinand in Sarajevo',
+                        isRight: true,
+                        commentary: 'It happened on July 28, 1914.'
+                    },
+                ],
+            },
+            {
+                text: 'When did the war finally end?',
+                answers: [
+                    {
+                        text: 'On August 9th',
+                        isRight: false,
+                    },
+                    {
+                        text: 'December 15th',
+                        isRight: false,
+                    },
+                    {
+                        text: 'September 18th',
+                        isRight: false,
+                    },
+                    {
+                        text: 'November 11th',
+                        isRight: true,
+                        commentary: 'The war finally came to an end on November 11, 1918, with the signing of the Armistice, which marked the defeat of the Central Powers.'
+                    }
+                ],
+            },
+            {
+                text: 'In what year did the United States enter the war?',
+                answers: [
+                    {
+                        text: '1915',
+                        isRight: false,
+                    },
+                    {
+                        text: '1917',
+                        isRight: true,
+                        commentary: 'Before that, they remained neutral. American troops fought from October 1917 on the Western Front and from July 1918 on the Italian Front.'
+                    },
+                    {
+                        text: '1919',
+                        isRight: false,
+                    },
+                    {
+                        text: '1918',
+                        isRight: false,
+                    },
+                ],
+            },
+            {
+                text: 'Specify what is superfluous in the above sentence. In 1914, they fought on the side of the Triple Alliance',
+                answers: [
+                    {
+                        text: 'Austria-Hungary',
+                        isRight: false,
+                    },
+                    {
+                        text: 'Italy',
+                        isRight: false,
+                    },
+                    {
+                        text: 'Germany',
+                        isRight: false,
+                    },
+                    {
+                        text: 'Bulgaria',
+                        isRight: true,
+                        commentary: 'The Triple Alliance is a military—political bloc of Germany, Austria-Hungary and Italy, formed in 1882, which marked the beginning of the division of Europe into hostile camps'
+                    },
+                ],
+            },
+            {
+                text: 'The Treaty of Versailles, which ended the war, was signed in',
+                answers: [
+                    {
+                        text: '1919',
+                        isRight: true,
+                        commentary: 'The Treaty of Versailles, submitted for signature to the German leaders on May 7, 1919, forced Germany to transfer territories to Belgium, Czechoslovakia and Poland'
+                    },
+                    {
+                        text: '1920',
+                        isRight: false,
+                    },
+                    {
+                        text: '1918',
+                        isRight: false,
+                    },
+                ],
+            },
+            {
+                text: 'What new technologies were used in the First World War?',
+                answers: [
+                    {
+                        text: 'Atomic bombs',
+                        isRight: false,
+                    },
+                    {
+                        text: 'Chemical weapons',
+                        isRight: true,
+                        commentary: 'In April 1915, during the battle of Ypres, chlorine was first used by the Germans.'
+                    },
+                    {
+                        text: 'Radar',
+                        isRight: false,
+                    },
+                ],
+            },
+        ]
     }
 ];
 
