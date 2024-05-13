@@ -175,167 +175,6 @@ const tests: TestType[] = [
         ]
     },
     {
-        title: 'History of the USSR',
-        description: 'This test will check how well you know hystory of Russia as a part of USSR',
-        imgUrl: 'https://hcenter-irk.info/sites/default/files/1400885335_stalin-iosif-vissarionovich-1.jpg',
-        category: TestCategory.RUSSIA,
-        difficulty: TestDifficulty.HARD,
-        questions: [
-            {
-                text: 'How many republics were originally part of the USSR?',
-                answers: [
-                    {
-                        text: '4',
-                        isRight: true,
-                        commentary: '4 republics: the RSFSR, the Byelorussian SSR, the Ukrainian SSR and the Transcaucasian SFSR.'
-                    },
-                    {
-                        text: '7',
-                        isRight: false,
-                    },
-                    {
-                        text: '10',
-                        isRight: false,
-                    },
-                ]
-            },
-            {
-                text: 'The Constitution of the USSR is the basic law of the Soviet Union. How many versions of the constitution have been written during the existence of the USSR?',
-                answers: [
-                    {
-                        text: '2',
-                        isRight: false,
-                    },
-                    {
-                        text: '3',
-                        isRight: true,
-                        commentary: 'In 1924, 1936 and 1977.'
-                    },
-                    {
-                        text: '4',
-                        isRight: false,
-                    },
-                ]
-            },
-            {
-                text: 'In 1929, the first five-year plan of the USSR was approved. During what period was this five-year plan completed?',
-                answers: [
-                    {
-                        text: 'for 4 years and 9 months',
-                        isRight: false,
-                    },
-                    {
-                        text: 'for 4 years and 6 months',
-                        isRight: false,
-                    },
-                    {
-                        text: 'for 4 years and 3 months',
-                        isRight: true,
-                        commentary: 'The first five-year development plan of the USSR was adopted in 1928, for a five-year period from 1928 to 1932, and completed in 4 years and three months. However, in 1947, at a meeting of the Politburo, Stalin said that the plan had not been completed.'
-                    },
-                    {
-                        text: 'for 4 years',
-                        isRight: false
-                    }
-                ]
-            },
-            {
-                text: 'On August 23, 1939, the USSR and Germany signed a non—aggression pact (contract). How many years was this pact supposed to be valid?',
-                answers: [
-                    {
-                        text: '2 years',
-                        isRight: false,
-                    },
-                    {
-                        text: '5 years',
-                        isRight: false,
-                    },
-                    {
-                        text: '10 years',
-                        isRight: true,
-                        commentary: 'The diplomatic agreement included a non-aggression pact between Germany and the Soviet Union for a period of 10 years. It would be then automatically continued for 5 years.'
-                    },
-                ]
-            },
-            {
-                text: 'Which of these achievements does NOT belong to the Soviet Union?',
-                answers: [
-                    {
-                        text: 'Launch of the first Earth satellite',
-                        isRight: false,
-                    },
-                    {
-                        text: 'Launch of the first nuclear power plant',
-                        isRight: false,
-                    },
-                    {
-                        text: 'The world\'s first test of a thermonuclear explosive device',
-                        isRight: true,
-                        commentary: 'This test took place in the United States on November 1, 1952.'
-                    },
-                ]
-            },
-            {
-                text: 'How many five-year plans were fulfilled in the USSR?',
-                answers: [
-                    {
-                        text: '11',
-                        isRight: false,
-                    },
-                    {
-                        text: '12',
-                        isRight: true,
-                        commentary: 'Of the 13 plans, 12 were completed, the last one was not completed due to the collapse of the USSR'
-                    },
-                    {
-                        text: '13',
-                        isRight: false,
-                    },
-                ]
-            },
-            {
-                text: 'How many full years did the Soviet Union exist?',
-                answers: [
-                    {
-                        text: '68',
-                        isRight: true,
-                        commentary: 'On December 26, 1991, the Council of Republics adopted a declaration stating the end of existence of the USSR'
-                    },
-                    {
-                        text: '70',
-                        isRight: false,
-                    },
-                    {
-                        text: '74',
-                        isRight: false,
-                    },
-                ]
-            },
-            {
-                text: 'Who was awarded the prize for the "invention" of the time machine in Soviet times?',
-                answers: [
-                    {
-                        text: 'Wood sculptor Vyacheslav Pochechuev for the film “Ivan Vasilyevich changes his profession”',
-                        isRight: true,
-                        commentary: 'The time machine, which was the center of the film "Ivan Vasilyevich changes his profession," was invented and designed by Vyacheslav Pochechuev. In 1973, the sculptor received a 40-ruble prize and a certificate: "The money was given for the invention of a time machine."'
-                    },
-                    {
-                        text: 'Vadim Chernobrov, an employee of one of the laboratories of the Moscow Aviation Institute, a graduate of the Faculty of Cosmonautics and Automatic Flight',
-                        isRight: false,
-                    },
-                    {
-                        text: 'Andrey Makarevich in the instruction of the first President of the USSR',
-                        isRight: false,
-                    },
-                    {
-                        text: 'Employees of theater, who made the remote control from a Rubik\'s cube for the film “Guest from the Future”',
-                        isRight: false,
-                    },
-                ]
-            },
-        ]
-    },
-    {
         title: 'Russia in World War 1',
         description: 'This test will check how well you know Russian history in this hard period - World War 1',
         imgUrl: 'https://monastery.ru/upload/iblock/77e/77e7c330255a2222295f28741b0ad161.jpg',
@@ -503,7 +342,168 @@ const tests: TestType[] = [
                 ],
             },
         ]
-    }
+    },
+    {
+        title: 'History of the USSR',
+        description: 'This test will check how well you know hystory of Russia as a part of USSR',
+        imgUrl: 'https://hcenter-irk.info/sites/default/files/1400885335_stalin-iosif-vissarionovich-1.jpg',
+        category: TestCategory.RUSSIA,
+        difficulty: TestDifficulty.HARD,
+        questions: [
+            {
+                text: 'How many republics were originally part of the USSR?',
+                answers: [
+                    {
+                        text: '4',
+                        isRight: true,
+                        commentary: '4 republics: the RSFSR, the Byelorussian SSR, the Ukrainian SSR and the Transcaucasian SFSR.'
+                    },
+                    {
+                        text: '7',
+                        isRight: false,
+                    },
+                    {
+                        text: '10',
+                        isRight: false,
+                    },
+                ]
+            },
+            {
+                text: 'The Constitution of the USSR is the basic law of the Soviet Union. How many versions of the constitution have been written during the existence of the USSR?',
+                answers: [
+                    {
+                        text: '2',
+                        isRight: false,
+                    },
+                    {
+                        text: '3',
+                        isRight: true,
+                        commentary: 'In 1924, 1936 and 1977.'
+                    },
+                    {
+                        text: '4',
+                        isRight: false,
+                    },
+                ]
+            },
+            {
+                text: 'In 1929, the first five-year plan of the USSR was approved. During what period was this five-year plan completed?',
+                answers: [
+                    {
+                        text: 'for 4 years and 9 months',
+                        isRight: false,
+                    },
+                    {
+                        text: 'for 4 years and 6 months',
+                        isRight: false,
+                    },
+                    {
+                        text: 'for 4 years and 3 months',
+                        isRight: true,
+                        commentary: 'The first five-year development plan of the USSR was adopted in 1928, for a five-year period from 1928 to 1932, and completed in 4 years and three months. However, in 1947, at a meeting of the Politburo, Stalin said that the plan had not been completed.'
+                    },
+                    {
+                        text: 'for 4 years',
+                        isRight: false
+                    }
+                ]
+            },
+            {
+                text: 'On August 23, 1939, the USSR and Germany signed a non—aggression pact (contract). How many years was this pact supposed to be valid?',
+                answers: [
+                    {
+                        text: '2 years',
+                        isRight: false,
+                    },
+                    {
+                        text: '5 years',
+                        isRight: false,
+                    },
+                    {
+                        text: '10 years',
+                        isRight: true,
+                        commentary: 'The diplomatic agreement included a non-aggression pact between Germany and the Soviet Union for a period of 10 years. It would be then automatically continued for 5 years.'
+                    },
+                ]
+            },
+            {
+                text: 'Which of these achievements does NOT belong to the Soviet Union?',
+                answers: [
+                    {
+                        text: 'Launch of the first Earth satellite',
+                        isRight: false,
+                    },
+                    {
+                        text: 'Launch of the first nuclear power plant',
+                        isRight: false,
+                    },
+                    {
+                        text: 'The world\'s first test of a thermonuclear explosive device',
+                        isRight: true,
+                        commentary: 'This test took place in the United States on November 1, 1952.'
+                    },
+                ]
+            },
+            {
+                text: 'How many five-year plans were fulfilled in the USSR?',
+                answers: [
+                    {
+                        text: '11',
+                        isRight: false,
+                    },
+                    {
+                        text: '12',
+                        isRight: true,
+                        commentary: 'Of the 13 plans, 12 were completed, the last one was not completed due to the collapse of the USSR'
+                    },
+                    {
+                        text: '13',
+                        isRight: false,
+                    },
+                ]
+            },
+            {
+                text: 'How many full years did the Soviet Union exist?',
+                answers: [
+                    {
+                        text: '68',
+                        isRight: true,
+                        commentary: 'On December 26, 1991, the Council of Republics adopted a declaration stating the end of existence of the USSR'
+                    },
+                    {
+                        text: '70',
+                        isRight: false,
+                    },
+                    {
+                        text: '74',
+                        isRight: false,
+                    },
+                ]
+            },
+            {
+                text: 'Who was awarded the prize for the "invention" of the time machine in Soviet times?',
+                answers: [
+                    {
+                        text: 'Wood sculptor Vyacheslav Pochechuev for the film “Ivan Vasilyevich changes his profession”',
+                        isRight: true,
+                        commentary: 'The time machine, which was the center of the film "Ivan Vasilyevich changes his profession," was invented and designed by Vyacheslav Pochechuev. In 1973, the sculptor received a 40-ruble prize and a certificate: "The money was given for the invention of a time machine."'
+                    },
+                    {
+                        text: 'Vadim Chernobrov, an employee of one of the laboratories of the Moscow Aviation Institute, a graduate of the Faculty of Cosmonautics and Automatic Flight',
+                        isRight: false,
+                    },
+                    {
+                        text: 'Andrey Makarevich in the instruction of the first President of the USSR',
+                        isRight: false,
+                    },
+                    {
+                        text: 'Employees of theater, who made the remote control from a Rubik\'s cube for the film “Guest from the Future”',
+                        isRight: false,
+                    },
+                ]
+            },
+        ]
+    },
 ];
 
 export default tests;
